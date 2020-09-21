@@ -13,7 +13,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   user_input = gets.strip
   if random_number == user_input
-    return "You guessed the correct number!"
+    puts "You guessed the correct number!"
   elsif user_input == "exit"
     puts "Goodbye!"
   elsif user_input != random_number
